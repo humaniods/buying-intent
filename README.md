@@ -2,6 +2,16 @@
 
 AI-powered lead scoring system that combines rule-based logic with OpenAI GPT-3.5-Turbo to analyze and score B2B leads based on buying intent.
 
+## Engineering highlights
+
+- **Backend engineering:** Django REST Framework APIs for offers, lead uploads, scoring, result retrieval, and CSV export.
+- **Hybrid AI architecture:** inspectable rule-based scoring combined with contextual LLM classification, with a separated score breakdown.
+- **Quality and operability:** unit tests for scoring logic, request validation, Swagger/ReDoc documentation, Docker setup, and a hosted deployment.
+
+**Design decision:** rules capture repeatable signals while model-assisted analysis adds context. Keeping both contributions visible makes results easier to audit and debug.
+
+This project is one part of [my Python and AI engineering portfolio](https://github.com/humaniods).
+
 ## Live Deployment
 
 **Base URL:** https://buying-intent.onrender.com
@@ -182,8 +192,8 @@ else:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd lead-scoring-backend
+git clone https://github.com/humaniods/buying-intent.git
+cd buying-intent
 ```
 
 ### 2. Create Virtual Environment
