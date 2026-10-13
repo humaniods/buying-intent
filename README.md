@@ -182,8 +182,8 @@ else:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd lead-scoring-backend
+git clone https://github.com/humaniods/buying-intent.git
+cd buying-intent
 ```
 
 ### 2. Create Virtual Environment
